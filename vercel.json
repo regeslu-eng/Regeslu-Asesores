@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/proyectos",
+      "destination": "/sectores/",
+      "permanent": true
+    },
+    {
+      "source": "/proyectos/",
+      "destination": "/sectores/",
+      "permanent": true
+    },
+    {
+      "source": "/servicios/seo-google",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    },
+    {
+      "source": "/servicios/seo-google/",
+      "destination": "/servicios/marketing-digital/",
+      "permanent": true
+    }
+  ]
+}

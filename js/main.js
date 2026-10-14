@@ -109,9 +109,6 @@ document.addEventListener("DOMContentLoaded", () => {
       const options = [...needSelect.options];
       const exact = options.find(opt => opt.text.toLowerCase() === value.toLowerCase());
       if (exact) needSelect.value = exact.value;
-      else if (value.toLowerCase().includes("digital")) needSelect.value = "Google / marketing digital";
-      else if (value.toLowerCase().includes("empresarial")) needSelect.value = "Ordenar procesos y operación";
-      else if (value.toLowerCase().includes("mensual")) needSelect.value = "Acompañamiento mensual";
       else needSelect.value = "Otro proyecto";
     });
   });
